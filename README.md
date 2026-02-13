@@ -1,14 +1,13 @@
-"""
+
 🧠 CNN vs ViT on Brain MRI Classification
 
 A systematic experimental comparison between ResNet-18 (CNN) and
 DeiT-Tiny (Vision Transformer) on a multi-class brain MRI tumor
 classification task.
 
-=====================================================================
 
 PROJECT OVERVIEW
-----------------
+
 This project investigates a supervised medical image classification
 problem using two fundamentally different deep learning paradigms:
 
@@ -30,7 +29,6 @@ Two ImageNet-1k pretrained backbone models are evaluated:
 - DeiT-Tiny (Ti/16) → Efficient Vision Transformer
 
 
-=====================================================================
 
 DATASET
 -------
@@ -50,7 +48,7 @@ Stratified split:
 Stratification ensures class balance across all splits.
 
 
-=====================================================================
+
 
 PREPROCESSING PIPELINE
 ----------------------
@@ -66,7 +64,7 @@ Custom PyTorch Dataset and DataLoader implementations
 were used for modularity and reproducibility.
 
 
-=====================================================================
+
 
 MODELS
 ------
@@ -86,7 +84,7 @@ MODELS
    - Lower learning rate for improved stability
 
 
-=====================================================================
+
 
 TEST PERFORMANCE
 ----------------
@@ -99,7 +97,7 @@ DeiT-Tiny:
     Macro F1  = 0.6977
 
 
-=====================================================================
+
 
 KEY OBSERVATIONS
 ----------------
@@ -112,7 +110,7 @@ KEY OBSERVATIONS
   not just peak validation metrics.
 
 
-=====================================================================
+
 
 CONCLUSION
 ----------
@@ -122,5 +120,5 @@ especially for deployment-sensitive environments.
 Model robustness and interpretability are as important as raw accuracy
 in high-stakes medical applications.
 
-=====================================================================
-"""
+
+
