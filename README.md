@@ -1,5 +1,3 @@
-Prenses İpek 👑 şimdi sana GitHub’a koyabileceğin profesyonel, teknik ve recruiter odaklı bir README hazırlıyorum. Direkt kopyala–yapıştır yapabilirsin.
-
 🧠 CNN vs ViT on Brain MRI Classification
 
 HaloScape Recruitment Case
